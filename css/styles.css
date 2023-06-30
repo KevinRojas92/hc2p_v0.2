@@ -538,8 +538,8 @@ h2 {
     
     .mascara {
         height: 70vh;
-        column-gap: 9%;
-        row-gap: 3%;
+        column-gap: 12%;
+        row-gap: 1%;
     }
 
     .proyecto h3, .proyecto p {
@@ -548,13 +548,6 @@ h2 {
 
     .proyecto:hover h3, .proyecto:hover p {
         color: black;
-    }
-}
-
-@media screen and (min-width: 1629px) {
-    .mascara {
-        column-gap: 10%;
-        row-gap: 3%;
     }
 }
 
@@ -1098,7 +1091,7 @@ h2 {
         margin-top: 5px;
         grid-template-columns: repeat(7, 1fr);
         column-gap: 4.5%;
-        row-gap: 10%;
+        row-gap: 5%;
     }
     
     .persona {
