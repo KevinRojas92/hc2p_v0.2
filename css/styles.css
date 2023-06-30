@@ -539,7 +539,7 @@ h2 {
     .mascara {
         height: 70vh;
         column-gap: 12%;
-        row-gap: 1%;
+        row-gap: 2%;
     }
 
     .proyecto h3, .proyecto p {
@@ -1091,7 +1091,7 @@ h2 {
         margin-top: 5px;
         grid-template-columns: repeat(7, 1fr);
         column-gap: 4.5%;
-        row-gap: 5%;
+        row-gap: 3%;
     }
     
     .persona {
