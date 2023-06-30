@@ -532,7 +532,7 @@ h2 {
     }
 
     .cont_proyectos {
-        height: 800px;
+        height: 70vh;
         margin-top: 5vh;
     }
     
@@ -1056,7 +1056,7 @@ h2 {
 
 @media screen and (min-width: 1280px) {
     .cont_general_estudio {
-        height: 800px;
+        height: 70vh;
         overflow: hidden;
     }
 
@@ -1095,9 +1095,10 @@ h2 {
     .mascara_estudio {
         width: 142.8%;
         height: 70vh;
+        margin-top: 5px;
         grid-template-columns: repeat(7, 1fr);
-        column-gap: 3%;
-        row-gap: 5%;
+        column-gap: 4.5%;
+        row-gap: 10%;
     }
     
     .persona {
@@ -1133,10 +1134,10 @@ h2 {
     .previous_estudio, .next_estudio {
         font-size: 0;
         display: inline-block;
-        width: 7.5vw;
+        width: 28vw;
         height: 70vh;
         position: fixed;
-        top: 21.7vh;
+        top: 17vh;
     }
 
     .previous_estudio {
@@ -1255,7 +1256,7 @@ h2 {
 
 @media screen and (min-width: 769px) {
     .cont_general_sust {
-        height: 800px;
+        height: 70vh;
         overflow: hidden;
     }
 
@@ -1306,11 +1307,12 @@ h2 {
 
     .sustentabilidad2 {
         width: 85vw;
-        height: 800px;
+        height: 70vh;
         padding: 0 17vw;
         margin-bottom: 0;
         display: flex;
         flex-flow: column;
+        justify-content: center;
     }
 
     .sustentabilidad2 h2 {
@@ -1364,7 +1366,7 @@ h2 {
     }
 
     .sustentabilidad2 {
-        padding: 0 25vw;
+        padding: 0 30vw;
     }
 
     .contenedor_items {
