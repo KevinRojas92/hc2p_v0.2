@@ -37,7 +37,6 @@ nav {
     flex-flow: row wrap;
     align-items: start;
     justify-content: space-between;
-
 }
 
 h1 {
@@ -95,11 +94,10 @@ h1 a {
 .navegacion {
     width: 100vw;
     height: 100vh;
-    padding-top: 12vh;
     position: fixed;
     top: 0px;
     left: -715px;
-    padding-top: calc(20vh + 45px);
+    padding-top: 25vh;
     padding-left: 7.5vw;
     z-index: 1;
     background-color: white;
@@ -109,13 +107,12 @@ h1 a {
 .activeNavegacion {
     transform: translateX(715px);
 }
-
 .secciones li {
     margin-bottom: 5vh;
 }
 
 .secciones li:last-child {
-    margin-bottom: 19vh;
+    margin-bottom: 10vh;
 }
 
 .secciones li a:hover {
@@ -140,8 +137,8 @@ h1 a {
 .redes a {
     display: inline-block;
     font-size: 0;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 5px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -347,11 +344,8 @@ h1 a {
 
     .redes {
         width: 90px;
-        height: 65px;
-    }
-
-    .redes :nth-child(2), .redes :nth-child(3) {
-        margin-top: -25px;
+        height: 60px;
+        justify-content: space-between;
     }
 
     /* SLIDER */
@@ -532,8 +526,8 @@ h2 {
     }
 
     .cont_proyectos {
-        height: 70vh;
-        margin-top: 5vh;
+        height: 65vh;
+        margin-top: 10vh;
     }
     
     .mascara {
@@ -1049,12 +1043,14 @@ h2 {
 
 @media screen and (min-width: 1280px) {
     .cont_general_estudio {
-        height: 70vh;
+        height: 65vh;
         overflow: hidden;
+        margin-top: 10vh;
     }
 
     .mascara_general_estudio {
         width: 242.8%;
+        height: 65vh;
         display: flex;
         flex-flow: row nowrap;
         transition: all 400ms ease-in-out;
@@ -1077,7 +1073,19 @@ h2 {
     
     .estudio1 picture {
         width: 65%;
-        height: 70vh;
+        height: 65vh;
+    }
+
+    .estudio1 img {
+        height: 65vh;
+    }
+
+    @supports(object-fit: cover){
+        .estudio1 img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center bottom;
+        }
     }
     
     .estudio2 {
@@ -1087,7 +1095,7 @@ h2 {
     
     .mascara_estudio {
         width: 142.8%;
-        height: 70vh;
+        height: 65vh;
         margin-top: 5px;
         grid-template-columns: repeat(7, 1fr);
         column-gap: 4.5%;
@@ -1249,7 +1257,8 @@ h2 {
 
 @media screen and (min-width: 769px) {
     .cont_general_sust {
-        height: 70vh;
+        height: 65vh;
+        margin-top: 10vh;
         overflow: hidden;
     }
 
