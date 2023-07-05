@@ -420,26 +420,32 @@ h2 {
     .previous, .previous_detalleP, .next, .next_detalleP {
         font-size: 0;
         display: inline-block;
-        width: 7.5vw;
-        height: 50px;
+        width: 4vh;
+        height: 65vh;
         position: fixed;
-        top: 52vh;
+        top: 21.7vh;
+        background-repeat: no-repeat;
+        cursor: pointer;
     }
 
     .previous, .previous_detalleP {
         left: 0;
-        cursor: pointer;
-        background-image: url(../img/previous.png);
-        background-repeat: no-repeat;
-        background-position: center;
+        background-image: url(../img/previous.svg);
+        background-position: right center;
     }
 
     .next, .next_detalleP {
         right: 0;
-        cursor: pointer;
-        background-image: url(../img/next.png);
-        background-repeat: no-repeat;
-        background-position: center;
+        background-image: url(../img/next.svg);
+        background-position: left center;
+    }
+
+    .previous:hover, .previous_detalleP:hover {
+        background-image: url(../img/previous_hover.svg);
+    }
+
+    .next:hover, .next_detalleP:hover {
+        background-image: url(../img/next_hover.svg);
     }
 
     .cont_proyectos {
@@ -504,10 +510,6 @@ h2 {
 }
 
 @media screen and (min-width: 1070px) {
-    .previous, .next {
-        top: 50vh;
-    }
-    
     .mascara {
         column-gap: 6%;
         row-gap: 4%;
@@ -515,16 +517,6 @@ h2 {
 }
 
 @media screen and (min-width: 1280px) {
-    .previous, .previous_detalleP {
-        cursor: url(../img/previous.png), auto;
-        background-image: url();
-    }
-
-    .next, .next_detalleP {
-        cursor: url(../img/next.png), auto;
-        background-image: url();
-    }
-
     .cont_proyectos {
         height: 65vh;
         margin-top: 10vh;
@@ -545,7 +537,7 @@ h2 {
     }
 }
 
-/* ------------------------ CONTENIDO PROYECTOS ------------------------ */
+/* ---------------------- CONTENIDO PROYECTOS ---------------------- */
 
 .volver {
     display: inline-block;
@@ -851,30 +843,26 @@ h2 {
 
     .mascara_proyecto :nth-child(7){
         width: calc(100% / 7);
-      
     }
 
     .mascara_proyecto_calderon :nth-child(6){
         width: calc(100% / 6);
-      
     }
 
     .mascara_proyecto_griveo :nth-child(11){
         width: calc(100% / 11);
-      
     }
 
     .mascara_proyecto_zapata :nth-child(16){
         width: calc(100% / 16);
-      
     }
 }
 
 @media screen and (min-width: 1280px) {
     .previous_detalleP, .next_detalleP {
-        width: 30vw;
+        width: 5vw;
         height: 65vh;
-        top: 27vh;
+        top: 21vh;
     }
 
     .seccion1, .seccion2, .seccion3 {
@@ -910,18 +898,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 1629px) {
-    .previous_detalleP, .next_detalleP {
-        top: 22vh;
-    }
-
-    .info div {
-        margin-left: calc(100% - 100px);
-        margin-top: calc(54vh - 20px);
-    }
-}
-
-/* ------------------------------- ESTUDIO ------------------------------- */
+/* ---------------------------- ESTUDIO ---------------------------- */
 
 .next_estudio {
     display: none;
@@ -1135,26 +1112,28 @@ h2 {
     .previous_estudio, .next_estudio {
         font-size: 0;
         display: inline-block;
-        width: 28vw;
-        height: 70vh;
+        width: 5vw;
+        height: 65vh;
         position: fixed;
-        top: 17vh;
+        top: 22vh;
+        background-repeat: no-repeat;
+        cursor: pointer;
     }
 
     .previous_estudio {
         left: 0;
-        cursor: url(../img/previous.png), auto;
-        background-image: url();
+        background-image: url(../img/previous.svg);
+        background-position: right center;
     }
 
     .next_estudio {
         right: 0;
-        cursor: url(../img/next.png), auto;
-        background-image: url();
+        background-image: url(../img/next.svg);
+        background-position: left center;
     }
 }
 
-/* -------------------------- SUSTENTABILIDAD -------------------------- */
+/* ------------------------ SUSTENTABILIDAD ------------------------ */
 
 .sustentabilidad1, .sustentabilidad2 {
     margin-bottom: 5vh;
@@ -1196,15 +1175,6 @@ h2 {
 .item_sustentable h3 {
     margin-top: 1vh;
 }
-
-/* .sustentabilidad1 span {
-    font-size: 0;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin-bottom: 2vh;
-    background-color: black;
-} */
 
 @media screen and (min-width: 481px) {
     .sustentabilidad1 {
