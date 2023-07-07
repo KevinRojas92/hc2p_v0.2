@@ -158,7 +158,7 @@ h1 a {
 
 .slider_home {
     width: 85vw;
-    height: 65vh;
+    height: 51vh;
     margin: auto;
     margin-top: 10vh;
     overflow: hidden;
@@ -168,6 +168,7 @@ h1 a {
     display: flex;
     flex-flow: row nowrap;
     width: 1100%;
+    height: 51vh;
 }
 
 .slider_home li {
@@ -177,12 +178,12 @@ h1 a {
 
 .slider_home picture {
     width: 100%;
-    height: 65vh;
+    height: 51vh;
 }
 
 .slider_home img {
     width: auto;
-    height: 65vh;
+    height: 51vh;
 }
 
 @supports(object-fit: cover){
