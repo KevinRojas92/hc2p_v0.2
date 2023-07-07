@@ -257,8 +257,8 @@ h1 a {
 
     /* SLIDER */
 
-    .slider_home {
-        margin-top: 8vh;
+    .slider_home, .slider_home ul, .slider_home picture, .slider_home img {
+        height: 65vh;
     }
 }
 
