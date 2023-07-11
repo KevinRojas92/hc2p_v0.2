@@ -167,7 +167,7 @@ h1 a {
 .slider_home ul {
     display: flex;
     flex-flow: row nowrap;
-    width: 1100%;
+    width: 1300%;
     height: 51vh;
 }
 
@@ -198,35 +198,41 @@ h1 a {
     0% {transform: translateX(0%);}
     5% {transform: translateX(0%);}
 
-    9% {transform: translateX(-100%);}
-    14% {transform: translateX(-100%);}
+    8% {transform: translateX(-100%);}
+    13% {transform: translateX(-100%);}
 
-    18% {transform: translateX(-200%);}
-    23% {transform: translateX(-200%);}
+    16% {transform: translateX(-200%);}
+    21% {transform: translateX(-200%);}
 
-    27% {transform: translateX(-300%);}
-    32% {transform: translateX(-300%);}
+    24% {transform: translateX(-300%);}
+    29% {transform: translateX(-300%);}
 
-    36% {transform: translateX(-400%);}
-    41% {transform: translateX(-400%);}
+    32% {transform: translateX(-400%);}
+    37% {transform: translateX(-400%);}
 
+    40% {transform: translateX(-500%);}
     45% {transform: translateX(-500%);}
-    50% {transform: translateX(-500%);}
 
-    54% {transform: translateX(-600%);}
-    59% {transform: translateX(-600%);}
+    48% {transform: translateX(-600%);}
+    53% {transform: translateX(-600%);}
 
-    63% {transform: translateX(-700%);}
-    68% {transform: translateX(-700%);}
+    56% {transform: translateX(-700%);}
+    61% {transform: translateX(-700%);}
 
-    72% {transform: translateX(-800%);}
-    77% {transform: translateX(-800%);}
+    64% {transform: translateX(-800%);}
+    69% {transform: translateX(-800%);}
 
-    81% {transform: translateX(-900%);}
-    86% {transform: translateX(-900%);}
+    72% {transform: translateX(-900%);}
+    75% {transform: translateX(-900%);}
 
-    90% {transform: translateX(-1000%);}
-    95% {transform: translateX(-1000%);}
+    78% {transform: translateX(-1000%);}
+    83% {transform: translateX(-1000%);}
+
+    86% {transform: translateX(-1100%);}
+    91% {transform: translateX(-1100%);}
+
+    94% {transform: translateX(-1200%);}
+    99% {transform: translateX(-1200%);}
 }
 
 @media screen and (min-width: 481px){
